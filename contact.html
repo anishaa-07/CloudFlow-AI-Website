@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">CloudFlow AI</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="features">
+
+    <h2>Contact / Registration Form</h2>
+
+    <form class="contact-form">
+
+        <input type="text" placeholder="Full Name" required>
+
+        <input type="email" placeholder="Email Address" required>
+
+        <input
+            type="tel"
+            placeholder="Phone Number"
+            pattern="[0-9]{10}"
+            required
+        >
+
+        <input type="date">
+
+        <select required>
+            <option value="">Select Plan</option>
+            <option>Starter Plan</option>
+            <option>Pro Plan</option>
+            <option>Enterprise Plan</option>
+        </select>
+
+        <h3>Gender</h3>
+
+        <label>
+            <input type="radio" name="gender">
+            Male
+        </label>
+
+        <label>
+            <input type="radio" name="gender">
+            Female
+        </label>
+
+        <label>
+            <input type="radio" name="gender">
+            Other
+        </label>
+
+        <h3>Interested In</h3>
+
+        <label>
+            <input type="checkbox">
+            AI Automation
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Analytics
+        </label>
+
+        <label>
+            <input type="checkbox">
+            Cloud Storage
+        </label>
+
+        <textarea
+            rows="5"
+            placeholder="Enter your message..."
+        ></textarea>
+
+        <div class="form-buttons">
+            <button type="submit" class="btn">
+                Submit
+            </button>
+
+            <button type="reset" class="btn">
+                Reset
+            </button>
+        </div>
+
+    </form>
+
+</section>
+
+<footer>
+    <h3>CloudFlow AI</h3>
+    <p>Email: support@cloudflow.com</p>
+    <p>Phone: +91 9876543210</p>
+</footer>
+
+</body>
+</html>
