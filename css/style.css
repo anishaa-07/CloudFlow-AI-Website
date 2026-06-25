@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background: #0b1120;
+    color: #f8fafc;
+}
+
+.navbar{
+    background:#0f172a;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#60a5fa;
+}
+
+
+.hero{
+    min-height: 80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+    color:white;
+
+    background:
+    linear-gradient(
+    135deg,
+    #0f172a,
+    #1e1b4b,
+    #312e81,
+    #7c3aed
+    );
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    font-size:1.1rem;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:white;
+    color:#4f46e5;
+    padding:12px 28px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.features{
+    padding:60px 10%;
+    text-align:center;
+}
+
+.features h2{
+    margin-bottom:40px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.card{
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(15px);
+
+    border:1px solid rgba(255,255,255,0.1);
+
+    padding:30px;
+    border-radius:20px;
+
+    transition:.4s;
+
+    color:white;
+}
+
+.card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 15px 40px rgba(124,58,237,.35);
+}
+
+.benefits{
+    padding:60px 10%;
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.benefit-left,
+.benefit-right{
+    flex:1;
+}
+
+.benefit-right ul{
+    list-style:none;
+}
+
+.benefit-right li{
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+footer p{
+    margin-top:10px;
+}
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+        padding:20px;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .benefits{
+        flex-direction:column;
+    }
+}
+
+.contact-form{
+    max-width:700px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.form-buttons{
+    display:flex;
+    gap:15px;
+}
+
+.form-buttons .btn{
+    border:none;
+    cursor:pointer;
+}
