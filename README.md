@@ -1,31 +1,70 @@
-# 🚀 Full-Stack Assessments
+# 🚀 CloudFlow AI Website
 
-A collection of frontend and full-stack development assessments showcasing responsive web design, user interface development, and modern web technologies.
+A modern, responsive multi-page product website designed for a startup to showcase its services, highlight product features, and attract potential users.
 
 ---
 
-## 📂 Assessments
+## 🌟 Project Overview
 
-### Assessment 01 — CloudFlow AI Website
+CloudFlow AI is a fictional AI-powered productivity platform that helps teams automate workflows, improve collaboration, and manage projects efficiently.
 
-A modern multi-page product website designed for a startup to showcase its services and attract users.
+This project was developed as part of a frontend development assessment using HTML, CSS, Git, and GitHub while following responsive design and clean coding practices.
 
-### Features
+---
+
+## 📄 Pages Included
+
+### 🏠 Home Page (index.html)
 
 - Responsive Navigation Bar
-- Hero Section with Call-to-Action
-- Product Showcase Page
+- Hero Section
+- Product Headline & Description
+- Call-to-Action Button
+- Features Section
+- Benefits Section
+- Footer with Contact Information
+
+### 📦 Product Page (product.html)
+
+- Product Overview
+- Key Features
 - Pricing Plans
 - Customer Testimonials
 - FAQ Section
-- Contact & Registration Form
-- HTML5 Form Validation
-- About Us Page
-- Team Member Cards
-- Responsive Design
-- Modern Glassmorphism UI
 
-### Technologies Used
+### 📞 Contact Page (contact.html)
+
+- User Registration Form
+- HTML5 Form Validation
+- Dropdown Selection
+- Radio Buttons
+- Checkboxes
+- Text Area
+- Submit & Reset Buttons
+
+### 👥 About Page (about.html)
+
+- Product Vision
+- Company Story
+- Team Member Cards
+- Team Roles
+
+---
+
+## ✨ Features
+
+- Responsive Design
+- Modern SaaS UI
+- Glassmorphism Cards
+- Gradient Hero Section
+- Mobile-Friendly Layout
+- Interactive Hover Effects
+- HTML5 Form Validation
+- Clean Folder Structure
+
+---
+
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
@@ -34,20 +73,32 @@ A modern multi-page product website designed for a startup to showcase its servi
 
 ---
 
-## 🎯 Learning Objectives
+## 📁 Project Structure
 
-- Build responsive multi-page websites
-- Practice semantic HTML structure
-- Improve CSS layout and styling skills
-- Implement form validation using HTML5
-- Use Git and GitHub for version control
-- Follow clean project organization practices
+```text
+CloudFlow-AI-Website
+│
+├── css
+│   └── style.css
+│
+├── index.html
+├── product.html
+├── contact.html
+├── about.html
+│
+└── README.md
+```
 
 ---
 
-## 📸 Project Preview
+## 🎯 Learning Outcomes
 
-CloudFlow AI is a startup product website featuring modern UI design, responsive layouts, and user-friendly navigation.
+- Building responsive multi-page websites
+- Creating reusable UI components
+- Applying modern CSS styling techniques
+- Implementing HTML5 form validation
+- Using Git for version control
+- Managing projects with GitHub
 
 ---
 
@@ -55,8 +106,10 @@ CloudFlow AI is a startup product website featuring modern UI design, responsive
 
 **Anisha Ranjan**
 
-B.Tech CSE Student | Full Stack Developer | AI & Web Development Enthusiast
+B.Tech CSE Student  
+Aspiring Full Stack Developer  
+Passionate about AI, Web Development, and Building Real-World Projects
 
 ---
 
-⭐ This repository documents my assessment journey and continuous improvement in frontend and full-stack development.
+⭐ If you found this project interesting, feel free to explore the code and share your feedback.
